@@ -1,0 +1,128 @@
+body{margin-top:20px;}
+.icon-box.medium {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.icon-box {
+    font-size: 30px;
+    margin-bottom: 33px;
+    display: inline-block;
+    color: #ffffff;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    background-color: blue;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+.social-icon-style2 li a {
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    background: blue;
+    height: 41px;
+    line-height: 41px;
+    width: 41px;
+}
+.rounded-3 {
+    border-radius: 0.3rem !important;
+}
+
+.social-icon-style2 {
+    margin-bottom: 0;
+    display: inline-block;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.social-icon-style2 li {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+a, a:active, a:focus {
+    color: #616161;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+.display-25 {
+    font-size: 1.4rem;
+}
+
+p {
+    margin: 0;
+}
+
+.mb-1-6, .my-1-6 {
+    margin-bottom: 1.6rem;
+}
+.imgAvatar{
+   width: 60%;
+   height: 70%;
+}
+.info{
+    width: 28%;
+    float: left;
+    left: 110px;
+}
+.content{
+    position: relative;
+    width: 65%;
+    float: right;
+    right: -200px;
+}
+.custom-link:hover {
+    color: red; 
+}
+.custom-buttom:hover {
+    background: red; 
+}
+@media only screen and (max-width: 600px) {
+    .info, .content {
+        width: initial;
+        float: initial;
+        position: initial;
+        right: initial;
+        left: initial;
+    }
+    .position-fixed{
+        position: initial !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .info, .content {
+        width: initial;
+        float: initial;
+        position: initial;
+        right: initial;
+        left: initial;
+    }
+    .position-fixed{
+        position: initial !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    
+}
